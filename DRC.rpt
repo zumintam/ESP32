@@ -1,0 +1,102 @@
+** Drc report for ESP32.kicad_pcb **
+** Created on 2024-08-28T16:53:10+0700 **
+
+** Found 24 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(68,9750 mm, 104,9500 mm): Footprint J17
+    @(60,5750 mm, 101,0500 mm): Footprint J5
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(84,4000 mm, 91,5250 mm): Footprint J10
+    @(67,0150 mm, 84,5550 mm): Footprint U1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(84,4000 mm, 91,5250 mm): Footprint J10
+    @(68,5285 mm, 86,6500 mm): Footprint U4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(84,2800 mm, 81,5750 mm): Footprint J9
+    @(67,0150 mm, 84,5550 mm): Footprint U1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(84,2800 mm, 81,5750 mm): Footprint J9
+    @(68,5285 mm, 86,6500 mm): Footprint U4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(67,0150 mm, 84,5550 mm): Footprint U1
+    @(68,5285 mm, 86,6500 mm): Footprint U4
+[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
+    Local override; error
+    @(0,0000 mm, 0,0000 mm): PCB
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(69,5214 mm, 75,7625 mm): Reference 'R4'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(75,1071 mm, 75,7625 mm): Reference 'R2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(66,7536 mm, 75,6650 mm): Reference 'R5'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(63,9357 mm, 75,7625 mm): Reference 'R6'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(72,4768 mm, 75,6125 mm): Reference 'R3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(58,3500 mm, 75,7625 mm): Reference 'R7'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(61,1429 mm, 75,7625 mm): Reference 'R8'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(90,9750 mm, 96,4750 mm): PCB Text 'GND ' on F.Silkscreen
+    @(90,5285 mm, 93,6500 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(91,1850 mm, 101,5900 mm): Segment on F.Silkscreen
+    @(83,7050 mm, 100,8750 mm): Reference 'J7'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(90,9750 mm, 96,4750 mm): PCB Text 'GND ' on F.Silkscreen
+    @(90,5285 mm, 79,6500 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(69,5214 mm, 75,7625 mm): Reference 'R4'
+    @(69,9293 mm, 75,5354 mm): Segment on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(75,1071 mm, 75,7625 mm): Reference 'R2'
+    @(75,5150 mm, 75,5354 mm): Segment on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(67,1364 mm, 75,5354 mm): Segment on B.Silkscreen
+    @(66,7536 mm, 75,6650 mm): Reference 'R5'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(63,9357 mm, 75,7625 mm): Reference 'R6'
+    @(64,3436 mm, 75,5354 mm): Segment on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(72,7221 mm, 75,5354 mm): Segment on B.Silkscreen
+    @(72,4768 mm, 75,6125 mm): Reference 'R3'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(61,1429 mm, 75,7625 mm): Reference 'R8'
+    @(61,5507 mm, 75,5354 mm): Segment on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(58,3500 mm, 75,7625 mm): Reference 'R7'
+    @(58,7579 mm, 75,5354 mm): Segment on B.Silkscreen
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(47,9285 mm, 90,4600 mm): Track [+5V] on F.Cu, length 5,3507 mm
+    @(41,8750 mm, 103,3500 mm): Track [+5V] on F.Cu, length 3,2527 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **
